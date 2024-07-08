@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-06-27T15:22:54.498Z",
+    "end": "2024-06-27T15:23:04.661Z",
+    "duration": 10163,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "de66c405-233e-469a-8084-fd484bca3ecc",
+      "title": "",
+      "fullFile": "cypress/e2e/zemsania/zemsania.cy.js",
+      "file": "cypress/e2e/zemsania/zemsania.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2b532e44-b2ec-4ed3-921f-f86fa3624cd1",
+          "title": "Prueba para subir mi curriculum a la web de Zemsania Global Group",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Navego hasta la web de Zemsania Global Group, completo el formulario y subo mi CV",
+              "fullTitle": "Prueba para subir mi curriculum a la web de Zemsania Global Group Navego hasta la web de Zemsania Global Group, completo el formulario y subo mi CV",
+              "timedOut": null,
+              "duration": 8473,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visitZemsaniaPage();\nformPage.completeForm();\nformPage.checkPrivacity();\nformPage.sendCV();",
+              "err": {},
+              "uuid": "e726a7cc-09a0-425d-a6eb-889f4f3f2a50",
+              "parentUUID": "2b532e44-b2ec-4ed3-921f-f86fa3624cd1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e726a7cc-09a0-425d-a6eb-889f4f3f2a50"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8473,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
